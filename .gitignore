@@ -1,0 +1,12 @@
+# Loaags
+log
+*.log
+
+# Config
+config/*.json
+
+# Dependency direcotories
+node_modules
+
+# Optional npm cache directory
+.npm
