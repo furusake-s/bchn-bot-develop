@@ -1,0 +1,19 @@
+{
+  "name": "bchn-bot-develop",
+  "version": "1.0.0",
+  "description": "ゼロから作る自動売買bot開発で取り上げているプログラム",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/furusake-s/bchn-bot-develop.git"
+  },
+  "author": "Shinya Furusake",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/furusake-s/bchn-bot-develop/issues"
+  },
+  "homepage": "https://github.com/furusake-s/bchn-bot-develop#readme"
+}
