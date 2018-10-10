@@ -4,11 +4,16 @@ var pub = require('/home/ubuntu/bchn-bot-develop/lib/bitFlyer/public.js');
 // デバッグ用のcallback関数を用意する
 function apiDebug(err, res, payload) {
   if (err) {
-    console.log(err);
+    console.log('err:',err);
     return;
   }
-  var data = JSON.parse(payload);
-  console.log(data);
+
+  console.log('statusCode:', res.statusCode);
+
+  if (payload) {
+    var data = JSON.parse(payload);
+    console.log('payload:', data);
+  }
 };
 
 // product_codeを設定する

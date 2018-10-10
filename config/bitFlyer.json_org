@@ -1,0 +1,10 @@
+{
+  "account": {
+    "key": "",
+    "secret": ""
+  },
+  "trade": {
+    "key": "",
+  	"secret": ""
+	}
+}
