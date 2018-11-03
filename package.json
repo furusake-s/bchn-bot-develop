@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/furusake-s/bchn-bot-develop#readme",
   "dependencies": {
+    "decimal.js": "^10.0.1",
     "rpc-websockets": "^4.3.3",
     "socket.io-client": "^2.1.1"
   }
